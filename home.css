@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+#header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: aliceblue;
+    justify-content:space-around;
+}
+#title a img{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#legacy-points{
+    margin: 0;
+    padding: 1px;
+    width: 20%;
+    background-color: red;
+
+}
+#account{
+    width: 20%;
+    background-color: aqua;
+}
+hr{
+    padding: 0;
+    margin: 0;
+}
