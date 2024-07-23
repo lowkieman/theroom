@@ -1,5 +1,7 @@
 # The room member portal from ALX africa
-_ A clone from scratch
+A clone from scratch
+- check out the progress [here](https://membertheroom.netlify.app)
+
 
 ## Author
 - Wilfred Mamboleo Tinega ```@2024```
