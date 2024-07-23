@@ -18,7 +18,7 @@ html,body{
     display: flex;
 }
 #title{
-    width: 50%;
+    width: 30%;
 }
 #title a img{
     width: 100px;
@@ -26,14 +26,22 @@ html,body{
     background-color: red;
 }
 #legacy-points{
-    margin: 0;
-    padding: 1px;
-    width: 25%;
-    background-color: red;
-
+    margin: 20px auto;
+    width: 30%;
+    padding: 20px 0 0 0;
+    background-color: lightgrey;
+    border-radius: 20px/50%;
+}
+#legacy-points img{
+    display: inline-block;
+    width: 30px;
+    height: inherit;
+}
+#legacy-points #point{
+    padding: 10px;
 }
 #account{
-    width: 25%;
+    width: 40%;
     margin: 0;
     padding: 0;
 }
