@@ -12,75 +12,89 @@ html,body{
     margin: 0;
     padding: 0;
 }
+
 #header-main{
     margin: 0;
     padding: 0;
+    background-color: red;
     display: flex;
 }
-#title{
-    width: 30%;
+
+#header-main a{
+    width: 50%;
 }
-#title a img{
+#header-main a img{
+    margin: 0px;
     width: 100px;
     height: 100px;
-    background-color: red;
 }
-#legacy-points{
-    margin: 20px auto;
-    width: 30%;
-    padding: 20px 0 0 0;
-    background-color: lightgrey;
-    border-radius: 20px/50%;
-}
-#legacy-points img{
-    display: inline-block;
-    width: 30px;
-    height: inherit;
-}
-#legacy-points #point{
-    padding: 10px;
-}
-#account{
-    width: 40%;
-    margin: 0;
-    padding: 0;
-}
-ul{ 
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-#account div{
+
+#header-main #points{
+    background-color: lightgray;
     display: flex;
-    justify-content: center;
-    text-transform: capitalize;
-    padding: 10px 0 0 10px;
+    padding:0;
+    border: none;
+    width: 25%;
 }
-#account div #icon{
-    text-transform: uppercase;
-    border-radius: 50%;
-    padding: 10%;
-    background-color:lightgray;
+
+#header-main #points span{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
     font-weight: bold;
 }
-#account div #icon1,#name
-hr{
+
+#header-main #points img{
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+} 
+#account{
+    width: 25%;
+    background-color: aqua;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+}
+#account #profile{
+    text-transform: capitalize;
+    text-align: right;
+}
+
+#account #profile #icon{
+    border: none;
+    border-radius: 50%;
+    background-color: grey;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+#profile-content{
+    background-color: aliceblue;
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    position: absolute;
+    right: 2px;
+}
+
+ul,hr{
     padding: 0;
     margin: 0;
 }
 
-#profile1{
-    text-transform: capitalize;
-}
-#profile1 li a{
+#account #profile-content li a{
     text-decoration: none;
-    color: black;
+    text-transform: capitalize;
+    padding: 5px;
     display: block;
-    padding: 10px;
-    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    border-bottom: 1px solid gray;
 }
-#profile1 li a:hover{
-    background-color: rgb(221, 215, 215);
+#account #profile-content li a:hover{
+    background-color: lightgray;
 }
 
 /*NAVIGATION*/
