@@ -11,90 +11,104 @@ html,body{
 #header{
     margin: 0;
     padding: 0;
+    height: fit-content;
 }
 
-#header-main{
+#header1{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+#header-icon{
+    padding: 0;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+#account{
     margin: 0;
     padding: 0;
-    background-color: red;
+    width: 30%;
     display: flex;
-}
-
-#header-main a{
-    width: 50%;
-}
-#header-main a img{
-    margin: 0px;
-    width: 100px;
-    height: 100px;
-}
-
-#header-main #points{
-    background-color: lightgray;
-    display: flex;
-    padding:0;
-    border: none;
-    width: 25%;
-}
-
-#header-main #points span{
-    margin: 0;
-    padding: 0;
     text-transform: capitalize;
+}
+
+#points{
+    width: 40%;
+}
+
+.points{
+    background-color: rgb(243, 243, 243);
+    display: block;
+    width: 70%;
+    padding: 5px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 20px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: gray;
+}
+
+#profile{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 60%;
+}
+
+.profile{
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin: 20px auto;
+    border: none;
+
+}
+
+#icon{
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(243, 243, 243);
+    padding: 5px;
+    text-transform: uppercase;
     font-weight: bold;
 }
 
-#header-main #points img{
-    width: 20px;
-    height: 20px;
-    border: none;
+
+#header-icon a img{
+    margin: 5px 0 0 30px;
+    height: 4rem;
+    width: 4rem;
     border-radius: 50%;
-} 
-#account{
-    width: 25%;
-    background-color: aqua;
-    margin: 20px;
-    padding: 30px;
-    display: flex;
-}
-#account #profile{
-    text-transform: capitalize;
-    text-align: right;
 }
 
-#account #profile #icon{
-    border: none;
-    border-radius: 50%;
-    background-color: grey;
-    padding: 20px;
-    text-transform: uppercase;
-}
-
-#profile-content{
-    background-color: aliceblue;
-    list-style-type: none;
-    margin: 20px 0 0 0;
-    position: absolute;
-    right: 2px;
-}
-
-ul,hr{
-    padding: 0;
+#account-action{
     margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: none;
 }
 
-#account #profile-content li a{
+#account-action li a{
     text-decoration: none;
-    text-transform: capitalize;
-    padding: 5px;
     display: block;
-    width: 100%;
-    font-size: 20px;
     color: black;
-    border-bottom: 1px solid gray;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid whitesmoke;
 }
-#account #profile-content li a:hover{
-    background-color: lightgray;
+
+#account-action li #log{
+    border-bottom: none;
+}
+
+#account-action li a:hover{
+    background-color: whitesmoke;
 }
 
 /*NAVIGATION*/
@@ -120,7 +134,7 @@ ul,hr{
 }
 /*MAIN*/
 #main{
-    background-color: aliceblue;
+    background-color: rgb(243, 243, 243);
     height: 100vh;
     margin: 0;
     padding: 0;
