@@ -19,7 +19,7 @@ html,body{
     padding: 0;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid rgb(243, 243, 243);
+    border-bottom: 1px solid rgb(241,243,247);
 }
 
 #header-icon{
@@ -42,7 +42,7 @@ html,body{
 }
 
 .points{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(241,243,247);
     display: block;
     width: 70%;
     padding: 5px;
@@ -72,10 +72,13 @@ html,body{
 #icon{
     border: none;
     border-radius: 50%;
-    background-color: rgb(243, 243, 243);
-    padding: 5px;
+    background-color: rgba(201, 197, 197,0.8);
+    padding: 2px 5px 2px 5px;
     text-transform: uppercase;
     font-weight: bold;
+    color: white;
+    width: fit-content;
+    display: inline-block;
 }
 
 #header-icon a img{
@@ -112,7 +115,7 @@ html,body{
 }
 
 #account-action li a:hover{
-    background-color: whitesmoke;
+    background-color: rgb(241,243,247);
 }
 
 /*NAVIGATION*/
@@ -120,6 +123,7 @@ html,body{
     display: flex;
     margin: 0 0 0 50px;
     padding: 0;
+    list-style-type: none;
 }
 #nav ul li a{
     text-decoration: none;
@@ -140,9 +144,62 @@ html,body{
 
 /*MAIN*/
 #main{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(241,243,247);
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 
+/*FOOTER*/
+#footer{
+    background-color: #3B4957;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+#copyright{
+    margin: 20px auto;
+    padding: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    color: white;
+}
+#copyright div{
+    margin: 0 0 0 30px;
+    padding-left: 5px;
+    text-transform: capitalize;
+}
+
+#copyright div a{
+    color: white;
+}
+
+#social-media-icons{
+    margin: 20px auto;
+    padding: 10;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+#social-media-icons ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+#social-media-icons ul li a{
+    padding: 0px;
+    margin-right: 10px;
+    display: block;
+    width: 25%;
+    color: white;
+}
