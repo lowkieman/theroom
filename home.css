@@ -78,7 +78,6 @@ html,body{
     font-weight: bold;
 }
 
-
 #header-icon a img{
     margin: 5px 0 0 30px;
     height: 4rem;
@@ -91,6 +90,11 @@ html,body{
     padding: 0;
     list-style-type: none;
     display: none;
+    position: absolute;
+    right: 3px;
+    top: 70px;
+    background-color: white;
+    box-shadow: 1px 1px 3px gray;
 }
 
 #account-action li a{
@@ -132,6 +136,8 @@ html,body{
 #nav ul li a:active{
     border-bottom: 2px solid blue;
 }
+
+
 /*MAIN*/
 #main{
     background-color: rgb(243, 243, 243);
