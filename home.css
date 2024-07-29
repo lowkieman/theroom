@@ -53,14 +53,18 @@ html,body{
     outline-width: 1px;
     outline-color: gray;
 }
+.points img{
+    width: 30px;
+    height: 30px;
+}
 
-#profile{
+#Profile{
     margin: 0 auto;
     padding: 0 auto;
     width: 60%;
 }
 
-.profile{
+.Profile{
     display: block;
     width: 90%;
     padding: 5px;
@@ -135,12 +139,7 @@ html,body{
 }
 #nav ul li a:hover{
     color: blue;
-    border-bottom: 2px solid blue;
 }
-#nav ul li a:active{
-    border-bottom: 2px solid blue;
-}
-
 
 /*MAIN*/
 #main{
@@ -148,6 +147,21 @@ html,body{
     height: 100vh;
     margin: 0;
     padding: 0;
+}
+#alx,#community,#opportunities,#profile,#redeem,#contact-us,#login{
+    position: absolute;
+    top: 10vh;
+    display: none;
+}
+#alx:target,
+#community:target,
+#opportunities:target,
+#profile:target,
+#redeem:target,
+#contact-us:target{
+    margin-top: 100px;
+    display: block;
+
 }
 
 /*FOOTER*/
@@ -200,6 +214,6 @@ html,body{
     padding: 0px;
     margin-right: 10px;
     display: block;
-    width: 25%;
+    width: 25%; 
     color: white;
 }
