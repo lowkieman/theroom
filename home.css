@@ -38,13 +38,12 @@ html,body{
 }
 
 #points{
-    width: 40%;
+    width: 35%;
 }
 
 .points{
     background-color: rgb(241,243,247);
     display: block;
-    width: 70%;
     padding: 5px;
     margin: 20px auto;
     border: none;
@@ -61,12 +60,11 @@ html,body{
 #Profile{
     margin: 0 auto;
     padding: 0 auto;
-    width: 60%;
+    width: 65%;
 }
 
 .Profile{
     display: block;
-    width: 90%;
     padding: 5px;
     margin: 20px auto;
     border: none;
