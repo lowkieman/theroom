@@ -155,7 +155,6 @@ html,body{
     border: none;
     border-radius: 20px;
     background-color:  rgba(255, 255, 255, 0.6);
-    background-color: red;
 }
 
 #login1{
@@ -177,7 +176,7 @@ html,body{
     border-radius: 0 20px 20px 0;
     display: block;
 }
-#login2 div{
+#login2 #description{
     text-align: center;
     text-transform: capitalize;
     display: none;
@@ -185,20 +184,59 @@ html,body{
 #login2 span{
     margin: 0 auto;
     display: block;
-    width: 90%;
-    background-color: aqua;
+    width: 70%;
+    border-radius: 5px;
+    padding: 5px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: gray;
 }
+#login2 input:focus span {
+    outline: 1px solid green;
+}
+
 #login2 span input{
-    width: 80%;
+    width: 95%;
     border: none;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+}
+#login2 span input:focus{
     outline: none;
+    border: none;
+}
+#login2 span i{
+    display: inline-block;
+    width: 5%;
 }
 #login2 button{
     margin: 10px auto;
     display: block;
-    width: 70%;
+    width: 60%;
     padding: 5px;
     border: 1px solid gray;
+    border-radius: 8px;
+}
+.or-separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    width: 70%;
+}
+.or-separator::before,
+.or-separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+.or-separator:not(:empty)::before {
+    margin-right: .25em;
+}
+.or-separator:not(:empty)::after {
+    margin-left: .25em;
 }
 
 
