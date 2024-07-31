@@ -53,7 +53,7 @@ html,body{
     outline-color: gray;
 }
 .points img{
-    width: 30px;
+    width: 30px; 
     height: 30px;
 }
 
@@ -142,25 +142,66 @@ html,body{
 /*MAIN*/
 #main{
     background-color: rgb(241,243,247);
-    height: 100vh;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    height: 100vh;
 }
-#alx,#community,#opportunities,#profile,#redeem,#contact-us,#login{
-    position: absolute;
-    top: 10vh;
+
+#login{
+    margin: 10px 10%;
+    padding: 0;
+    width: 80%;
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    background-color:  rgba(255, 255, 255, 0.6);
+    background-color: red;
+}
+
+#login1{
+    padding: 0;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#login1 img{
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+}
+
+#login2{
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+    display: block;
+}
+#login2 div{
+    text-align: center;
+    text-transform: capitalize;
     display: none;
 }
-#alx:target,
-#community:target,
-#opportunities:target,
-#profile:target,
-#redeem:target,
-#contact-us:target{
-    margin-top: 100px;
+#login2 span{
+    margin: 0 auto;
     display: block;
-
+    width: 90%;
+    background-color: aqua;
 }
+#login2 span input{
+    width: 80%;
+    border: none;
+    outline: none;
+}
+#login2 button{
+    margin: 10px auto;
+    display: block;
+    width: 70%;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+
 
 /*FOOTER*/
 #footer{
