@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 html,body{
     margin: 0;
     padding: 0;
@@ -52,6 +53,7 @@ html,body{
     outline-width: 1px;
     outline-color: gray;
 }
+
 .points img{
     width: 30px; 
     height: 30px;
@@ -68,7 +70,6 @@ html,body{
     padding: 5px;
     margin: 20px auto;
     border: none;
-
 }
 
 #icon{
@@ -119,16 +120,19 @@ html,body{
 #account-action li a:hover{
     background-color: rgb(241,243,247);
 }
+
 @media screen and (max-width:575px) {
     #header{
         margin: 0 auto;
     }
+
     #header-icon a img{
         width: 3rem;
         height: 3rem;
         margin-top: 12px;
         margin-left: 40px;
     }
+
     #header1{
         border-bottom: 0;
     }
@@ -137,14 +141,17 @@ html,body{
     #hidepoints{
         display: none;
     }
+
     .points{
         margin-top: 25px;
         padding: 0;
     }
+
     .points img{
         width: 20px;
         height: 20px;
     }
+
     #icon{
         margin: 0 0 0 20px;
         padding: 2px 5px 2px 5px; 
@@ -161,6 +168,7 @@ html,body{
     top: 0;
     display: none;
 }
+
 #nav .bi-x{
     margin: 20px 0 0 10px;
     color: black;
@@ -170,12 +178,14 @@ html,body{
     top: 0;
     display: none;
 }
+
 #nav ul{
     display: flex;
     margin: 0 0 0 50px;
     padding: 0;
     list-style-type: none;
 }
+
 #nav ul li a{
     text-decoration: none;
     text-transform: capitalize;
@@ -184,13 +194,16 @@ html,body{
     width: 100%;
     padding: 10px;
 }
+
 #nav ul li a:hover{
     color: blue;
 }
+
 @media screen and (max-width:575px) {
     #nav .bi-list{
         display: block;
     }
+
     #nav ul{
         display: block;
         top: 79px;
@@ -202,11 +215,11 @@ html,body{
         box-shadow: -1px 1px 5px black;
         width: 50%;
     }
+
     #nav ul li a:hover{
         width: 100%;
         background-color: rgba(208, 207, 209, 0.5);
     }
-    
 }
 
 /*MAIN*/
@@ -245,6 +258,7 @@ html,body{
     width: 50%;
     border-radius: 0 20px 20px 0;
 }
+
 #login2 #description{
     text-align: center;
     text-transform: capitalize;
@@ -259,9 +273,11 @@ html,body{
     margin-top: 60px;
 
 }
+
 #login2 #google button a{
     color: black;
 }
+
 #login2 #email{
     margin: 20px auto 0 auto;
     width: 60%;
@@ -279,6 +295,7 @@ html,body{
     border-radius: 0 10px 10px 0;
     background-color: white;
 }
+
 #login2 #submit{
     margin: 0px auto;
 }
@@ -306,6 +323,7 @@ html,body{
     border: 1px solid gray;
     border-radius: 8px;
 }
+
 #login2 button:hover{
     box-shadow: 0 3px 5px rgb(175, 174, 174);
 }
@@ -319,18 +337,22 @@ html,body{
     color: gray;
     font-weight: bold;
 }
+
 .or-separator::before,
 .or-separator::after {
     content: '';
     flex: 1;
     border-bottom: 1px solid #ccc;
 }
+
 .or-separator:not(:empty)::before {
     margin-right: .25em;
 }
+
 .or-separator:not(:empty)::after {
     margin-left: .25em;
 }
+
 #emailMessage{
     margin: 0 auto 0 auto;
     width: 60%;
@@ -348,16 +370,18 @@ html,body{
         background-color: inherit;
         display: none;
     }
+
     #login1{
         display: none;
         width: 100%;
     }
+
     #login2{
         margin: 0 auto;
         padding: 0;
         width: 90%;
-
     } 
+
     #login2 #description{
         display: block;
         width: 100%;
@@ -369,14 +393,17 @@ html,body{
         color: gray;
         font-size: 25px;
     }
+
     #login2 #google{
         margin: 0 auto;
         width: 100%;
     }
+
     #login2 #google button{
         margin: 0 auto;
         width: 100%;
     }
+
     #login2 .or-separator{
         width: 100%;
 
@@ -384,14 +411,15 @@ html,body{
     #login2 #email{
         margin: 0 auto;
         width: 100%;
-
     }
+
     #login2 #emailMessage{
         width: 100%;
     }
     #login2 #submit button{
         width: 100%;
     }
+
     #login2 #more-description{
         width: 100%;
         padding: 10px;
@@ -410,7 +438,6 @@ html,body{
     display: flex;
     width: 100%;
     justify-content: center;
-
 }
 
 #copyright{
@@ -421,6 +448,7 @@ html,body{
     justify-content: left;
     color: white;
 }
+
 #copyright div{
     margin: 0 0 0 30px;
     padding-left: 5px;
@@ -439,6 +467,7 @@ html,body{
     justify-content: center;
 
 }
+
 #social-media-icons ul{
     list-style-type: none;
     display: flex;
