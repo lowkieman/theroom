@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+}
+#main{
+    background-color: rgb(242, 244, 247);
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+/*learning-alx
+*first page done and dusted
+*
+*
+*/
+#main #alx{
+    padding: 20px;
+    margin: 10px auto;
+    background-color: inherit;
+    width: 85%;
+    box-shadow: 0.5px 0.5px 5px gray; 
+    border: none;
+    border-radius: 20px;
+}
+
+#main #alx #b{
+    background-color: #e4e7ec;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#main #alx #b #c{
+    display: flex;
+}
+
+#main #alx #b #c #d{
+    margin: 0 auto;
+    padding: 0;
+    width:10%;
+}
+
+#main #alx #b #c #d img{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+
+}
+
+#main #alx #b #c #e{
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 15.9px;
+}
+
+#main #alx #b #c #f{
+    width: 30%;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+#main #alx #b #c #f a{
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 2.5rem;
+    text-align: right;
+}
+
+#main #alx #g{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+
+#main #alx #g #g1,#g2{
+    margin: 40px auto;
+    padding: 0;
+    width: 50%;
+}
+
+#main #alx #g #g2 h4{
+    margin-top: 20px;
+
+}
+
+#main #alx #g #g2 div{
+    margin-top: 20px;
+    width: 90%;
+    color: gray;
+
+}
+#main #alx #g #g2 button{
+    margin: 40px 0 0 0;
+    text-decoration: none;
+    background-color: rgb(24, 144, 255);
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+#main #alx #g #g2 button:hover{
+    box-shadow: 1px 0px 5px gray;
+}
+
+#main #alx #g #g2 button a{
+    text-decoration: none;
+    background-color: rgb(24, 144, 255);
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:425px) {
+    #main #alx{
+        padding: 10px;
+        margin: 0 auto;
+        background-color: inherit;
+        width: 100%;
+        box-shadow: 0 0; 
+        border: none;
+        border-radius: 0;
+    }
+    #main #alx #a h4{
+        margin: 20px 0 20px 0;
+        font-size: 30px;
+        font-weight: lighter;
+        padding: 0;
+    }
+    
+    
+    #main #alx #b{
+        background-color: #e4e7ec;
+        margin: 0 auto;
+        padding: 0;
+        width: 98%;
+        display: block;
+        border: none;
+        border-radius: 10px;
+    }
+
+    #main #alx #b #c{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    #main #alx #b #c #d{
+        margin: 0 auto;
+        padding: 0;
+        width:25%;
+    }
+   
+    #main #alx #b #c #d img{
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        padding: 20px;    
+    } 
+    #main #alx #b #c #e{
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 15.9px;
+        width: 75%;
+    }
+    #main #alx #b #c #e div{
+        color: gray;
+    }
+
+    #main #alx #b #c #f{
+        width: 100%;
+        font-weight: 500;
+    }
+    
+    #main #alx #b #c #f a{
+        margin: 0 auto;
+        padding: 0 0 20px 0;
+        text-decoration: none;
+        text-align: right;
+    }
+   
+    #main #alx #g{
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+    }
+    
+    #main #alx #g #g1{
+        display: none;
+        margin: 0;
+        background-color: red;
+    }
+    
+    #main #alx #g #g2 h4{
+        margin: 20px auto;
+        padding: 0;
+    }
+   
+    #main #alx #g #g2 div{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    
+    } 
+    #main #alx #g #g2 button{
+        margin: 10px 0 0 10px;
+        text-decoration: none;
+        background-color: rgb(24, 144, 255);
+        color: white;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+    
+}
+#community,
+#opportunities,
+#profile,
+#redeem,
+#contact-us{
+    display: none;
+}
+
