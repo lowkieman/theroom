@@ -5,7 +5,7 @@
 html,body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;    
 }
 
 /*HEADER*/
@@ -222,13 +222,7 @@ html,body{
     }
 }
 
-/*MAIN*/
-#main{
-    background-color: rgb(241,243,247);
-    margin: 0 auto;
-    padding: 0;
-}
-
+/*login*/
 #login{
     margin: 10px 10%;
     padding: 0;
