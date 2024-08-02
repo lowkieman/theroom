@@ -1,33 +1,46 @@
+//NAVIGATION BAR FOR MOBILE SCREENS
+
+const show=document.getElementById("shownav");
+const hide=document.getElementById("hidenav");
+
+show.addEventListener("click",function(){
+    document.getElementById("shownav").style.display="none";
+    document.getElementById("show").style.display="block";
+    document.getElementById("hidenav").style.display="block"
+});
+hide.addEventListener("click",function(){
+    document.getElementById("show").style.display="none";
+    document.getElementById("shownav").style.display="block";
+    document.getElementById("hidenav").style.display="none";
+});
+
+//profile icon edits
 const accountAction=document.getElementById("getaccount-action");
+const useIcon=document.getElementById("icon");
 
 accountAction.addEventListener("click",function(){
     document.getElementById("account-action").style.display="block";    
 }); 
-
-const background1=document.getElementById("background1");
-const background2=document.getElementById("background2");
-const background3=document.getElementById("background3");
-const background4=document.getElementById("background4");
-const background5=document.getElementById("background5");
-const background6=document.getElementById("background6");
-
-background1.addEventListener("click",function(){
-    document.getElementById("background1").style.borderBottom="2px solid blue";
+useIcon.addEventListener("click",function(){
+    document.getElementById("account-action").style.display="block";
 });
 
-background2.addEventListener("click",function(){
-    document.getElementById("background2").style.borderBottom="2px solid blue";
+email.addEventListener("click",function(){
+    document.getElementById("email").style.border="2px solid pink";
+});
+email.addEventListener("blur",function(){
+    document.getElementById("email").style.border="1px solid gray";
 });
 
-background3.addEventListener("click",function(){
-    document.getElementById("background3").style.borderBottom="2px solid blue";
+const sms=document.getElementById("email");
+
+sms.addEventListener("click",function(){
+    const text1="Please input your Email";
+    document.getElementById("emailMessage").innerHTML=text1;
+    document.getElementById("emailMessage").style.color="red";
+    document.getElementById("warning").style.color="red";
 });
-background4.addEventListener("click",function(){
-    document.getElementById("background4").style.borderBottom="2px solid blue";
-});
-background5.addEventListener("click",function(){
-    document.getElementById("background5").style.borderBottom="2px solid blue";
-});
-background6.addEventListener("click",function(){
-    document.getElementById("background6").style.borderBottom="2px solid blue";
+sms.addEventListener("keypress",function(){
+    const text2="Please enter a valid email address!";
+    document.getElementById("emailMessage").innerHTML=text2;
 });
