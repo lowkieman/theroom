@@ -20,12 +20,12 @@
             <div id="account">
                 <div id="points">
                     <span class="points">
-                        <img src="https://member.theroom.com/assets/legacy-points-main.svg"><span>300 <span>points</span></span>
+                        <img src="https://member.theroom.com/assets/legacy-points-main.svg"><span>300 <span id="hidepoints">points</span></span>
                     </span>   
                 </div>
                 <div id="Profile">
                     <span class="Profile"> 
-                        <span id="icon">jd</span> <span id="getaccount-action"> john doe <i class="bi-chevron-down"></i></span>
+                        <span id="icon">jd</span> <span id="getaccount-action" class="hidename"> john doe <i class="bi-chevron-down"></i></span>
                         <ul id="account-action">
                             <li><a href="#profile">edit professional profile</a></li>
                             <li><a href="#login" id="log">logout</a></li>
@@ -35,7 +35,9 @@
             </div>
         </div>
         <div id="nav">
-            <ul>
+            <i class="bi-list" id="shownav"></i>
+            <i class="bi-x" id="hidenav"></i>
+            <ul id="show">
                 <li><a href="#alx" id="background1">learning</a></li>
                 <li><a href="#community" id="background2">community</a></li>
                 <li><a href="#opportunities" id="background3">job opportunities</a></li>
@@ -45,7 +47,7 @@
             </ul>
         </div> 
     </div>
-    <div id="main"> 
+    <div id="main">
         <div id="alx">alx</div>
         <div id="community">community</div>
         <div id="opportunities">opportunities</div>
@@ -53,7 +55,6 @@
         <div id="redeem">redeem</div>
         <div id="contact-us">contactus</div>
         <div id="login">
-            
             <div id="login1">
                 <img src="images/login.png">
             </div>
@@ -64,10 +65,11 @@
                 </div>
                 <div class="or-separator">or</div>
                 <div id="email">
-                        <i class="bi-person"></i><input type="email" name="email" id="email" placeholder="Email">
+                        <i class="bi-person" id="warning"></i><input type="email" name="email" id="email" placeholder="Email">
                 </div>
+                <div id="emailMessage"></div>
                 <div id="submit">
-                    <button type="button">Sign in with email</button>
+                    <button type="button" id="submitTo">Sign in with email</button>
                 </div>
                 <div id="more-description">
                     If you are having trouble logging in, please contact <a href="mailto:portal@sandtech.com">portal@sandtech.com</a>
