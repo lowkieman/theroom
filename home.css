@@ -119,8 +119,57 @@ html,body{
 #account-action li a:hover{
     background-color: rgb(241,243,247);
 }
+@media screen and (max-width:575px) {
+    #header{
+        margin: 0 auto;
+    }
+    #header-icon a img{
+        width: 3rem;
+        height: 3rem;
+        margin-top: 12px;
+        margin-left: 40px;
+    }
+    #header1{
+        border-bottom: 0;
+    }
+
+    .hidename,
+    #hidepoints{
+        display: none;
+    }
+    .points{
+        margin-top: 25px;
+        padding: 0;
+    }
+    .points img{
+        width: 20px;
+        height: 20px;
+    }
+    #icon{
+        margin: 0 0 0 20px;
+        padding: 2px 5px 2px 5px; 
+    }
+}
 
 /*NAVIGATION*/
+#nav .bi-list{
+    margin: 20px 0 0 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+#nav .bi-x{
+    margin: 20px 0 0 10px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    font-size: 25px;
+    top: 0;
+    display: none;
+}
 #nav ul{
     display: flex;
     margin: 0 0 0 50px;
@@ -138,13 +187,33 @@ html,body{
 #nav ul li a:hover{
     color: blue;
 }
+@media screen and (max-width:575px) {
+    #nav .bi-list{
+        display: block;
+    }
+    #nav ul{
+        display: block;
+        top: 79px;
+        margin: 0;
+        position: absolute;
+        height: 100%;
+        transition-duration: 1s;display: none;
+        background-color: white;
+        box-shadow: -1px 1px 5px black;
+        width: 50%;
+    }
+    #nav ul li a:hover{
+        width: 100%;
+        background-color: rgba(208, 207, 209, 0.5);
+    }
+    
+}
 
 /*MAIN*/
 #main{
     background-color: rgb(241,243,247);
     margin: 0 auto;
     padding: 0;
-    height: 100vh;
 }
 
 #login{
@@ -155,6 +224,7 @@ html,body{
     border: none;
     border-radius: 20px;
     background-color:  rgba(255, 255, 255, 0.6);
+    display: none;
 }
 
 #login1{
@@ -193,22 +263,24 @@ html,body{
     color: black;
 }
 #login2 #email{
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     width: 60%;
     border: 1px solid gray;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: white;
 }
+
 #login2 #email input{
     margin: 0 auto;
     padding: 10px;
     width: 95%;
     border: none;
     outline: none;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 10px 10px 0;
     background-color: white;
 }
 #login2 #submit{
-    margin: 30px auto;
+    margin: 0px auto;
 }
 
 #login2 #submit button{
@@ -244,6 +316,8 @@ html,body{
     text-align: center;
     margin: 20px auto;
     width: 60%;
+    color: gray;
+    font-weight: bold;
 }
 .or-separator::before,
 .or-separator::after {
@@ -256,6 +330,74 @@ html,body{
 }
 .or-separator:not(:empty)::after {
     margin-left: .25em;
+}
+#emailMessage{
+    margin: 0 auto 0 auto;
+    width: 60%;
+}
+
+/*login page*/
+@media screen and (max-width:425px) {
+    /*LOGIN*/
+    #login{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 0;
+        padding: 0;
+        background-color: inherit;
+        display: none;
+    }
+    #login1{
+        display: none;
+        width: 100%;
+    }
+    #login2{
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+
+    } 
+    #login2 #description{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+        width: 80%;
+        text-align: center;
+        text-transform: none;
+        font-weight: bold;
+        color: gray;
+        font-size: 25px;
+    }
+    #login2 #google{
+        margin: 0 auto;
+        width: 100%;
+    }
+    #login2 #google button{
+        margin: 0 auto;
+        width: 100%;
+    }
+    #login2 .or-separator{
+        width: 100%;
+
+    }
+    #login2 #email{
+        margin: 0 auto;
+        width: 100%;
+
+    }
+    #login2 #emailMessage{
+        width: 100%;
+    }
+    #login2 #submit button{
+        width: 100%;
+    }
+    #login2 #more-description{
+        width: 100%;
+        padding: 10px;
+        margin-top: 0;
+    }
+    
 }
 
 
