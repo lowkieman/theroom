@@ -137,7 +137,7 @@ html,body{
     background-color: rgb(241,243,247);
 }
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:425px) {
     #header{
         margin: 0 auto;
     }
@@ -225,7 +225,7 @@ html,body{
         top: 79px;
         margin: 0;
         position: absolute;
-        height: 100%;
+        height: inherit;
         transition-duration: 1s;display: none;
         background-color: white;
         box-shadow: -1px 1px 5px black;
@@ -475,7 +475,7 @@ html,body{
     padding: 10;
     width: 30%;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
