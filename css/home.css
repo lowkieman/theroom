@@ -27,7 +27,11 @@ html,body{
     padding: 0;
     width: 70%;
     margin: 0 auto;
-
+}
+@media screen and (max-width:425px) {
+    #header-icon{
+        width: 50%;
+    }
 }
 
 #account{
@@ -36,6 +40,11 @@ html,body{
     width: 30%;
     display: flex;
     text-transform: capitalize;
+}
+@media screen and (max-width:425px) {
+    #account{
+        width: 50%;
+    }
 }
 
 #points{
