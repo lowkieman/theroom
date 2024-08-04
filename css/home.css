@@ -39,7 +39,7 @@ html,body{
 }
 
 #points{
-    width: 35%;
+    width: 40%;
 }
 
 @media screen and (max-width:425px) {
@@ -72,7 +72,7 @@ html,body{
 #Profile{
     margin: 0 auto;
     padding: 0 auto;
-    width: 65%;
+    width: 60%;
 }
 
 @media screen and (max-width:425px) {
