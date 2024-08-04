@@ -258,6 +258,9 @@ html,body{
     background-color:  rgba(255, 255, 255, 0.6);
     display: none;
 }
+#login:target{
+    display: block;
+}
 
 #login1{
     padding: 0;

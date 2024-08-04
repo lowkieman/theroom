@@ -13,6 +13,9 @@
 *
 *
 */
+#alx,#community,#opportunities,#profile,#redeem,#contact-us,#login{
+    background-color: inherit;
+}
 #main #alx{
     padding: 20px;
     margin: 10px auto;
@@ -21,6 +24,7 @@
     box-shadow: 0.5px 0.5px 5px gray; 
     border: none;
     border-radius: 20px;
+    display: none;
 }
 #main #alx:target{
     display: block;
