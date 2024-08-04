@@ -42,6 +42,14 @@ html,body{
     width: 35%;
 }
 
+@media screen and (max-width:425px) {
+    #points{
+        width: 50%;
+        margin-left: 5px;
+    }
+    
+}
+
 .points{
     background-color: rgb(241,243,247);
     display: block;
@@ -52,6 +60,8 @@ html,body{
     outline-style: solid;
     outline-width: 1px;
     outline-color: gray;
+    width: 100%;
+    font-weight: bold;
 }
 
 .points img{
@@ -63,6 +73,12 @@ html,body{
     margin: 0 auto;
     padding: 0 auto;
     width: 65%;
+}
+
+@media screen and (max-width:425px) {
+    #profile{
+        width: 50%;
+    }  
 }
 
 .Profile{
@@ -441,6 +457,7 @@ html,body{
     display: flex;
     justify-content: left;
     color: white;
+    flex-wrap: wrap;
 }
 
 #copyright div{
@@ -458,8 +475,8 @@ html,body{
     padding: 10;
     width: 30%;
     display: flex;
-    justify-content: center;
-
+    justify-content: right;
+    flex-wrap: wrap;
 }
 
 #social-media-icons ul{
