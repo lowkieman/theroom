@@ -10,9 +10,8 @@ html,body{
 
 /*HEADER*/
 #header{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    height: fit-content;
 }
 
 #header1{
@@ -99,7 +98,7 @@ html,body{
     height: 30px;
 }
 
-#Profile{
+#Profile1{
     margin: 0 auto;
     padding: 0 auto;
     width: 60%;
@@ -263,19 +262,19 @@ html,body{
     }
 }
 
-/*login*/
+/*login page
+*
+*
+*/
 #login{
-    margin: 10px 10%;
+    margin: 0 auto;
     padding: 0;
-    width: 80%;
+    width: 85%;
     display: flex;
     border: none;
     border-radius: 20px;
-    background-color:  rgba(255, 255, 255, 0.6);
-    display: none;
-}
-#login:target{
-    display: block;
+    background-color:  inherit;    
+    box-shadow: 0 2px 10px gray;
 }
 
 #login1{
@@ -295,6 +294,7 @@ html,body{
     padding: 0;
     width: 50%;
     border-radius: 0 20px 20px 0;
+    background-color: inherit;
 }
 
 #login2 #description{
@@ -406,7 +406,6 @@ html,body{
         border-radius: 0;
         padding: 0;
         background-color: inherit;
-        display: none;
     }
 
     #login1{
@@ -522,4 +521,8 @@ html,body{
     display: block;
     width: 25%; 
     color: white;
+}
+
+#community,#opportunities,#profile,#redeem,#contact-us,#login{
+    display: none;
 }

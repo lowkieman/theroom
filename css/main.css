@@ -403,7 +403,7 @@
 *
 */
 
-#contact-us{
+.contact-us{
     width: 85%;
     margin: 40px auto;
     padding: 30px;
@@ -415,7 +415,7 @@
 }
 
 @media screen and (max-width:425px) {
-    #contact-us{
+    .contact-us{
         width: 100%;
         margin: 40px auto;
         padding: 30px;
@@ -428,20 +428,20 @@
     
 }
 
-#contact-us div{
+.contact-us div{
     width: 50%;
     padding: 20px;
     margin: 20px;
 }
 
-#contact-us div~div{
+.contact-us div~div{
     background-color: white;
     text-align: center;
     border: 1px solid lightgray;
     border-radius: 15px;
 }
 
-#contact-us div~div button{
+.contact-us div~div button{
     display: block;
     width: 90%;
     border: none;
@@ -456,17 +456,17 @@
 }
 
 @media screen and (max-width:425px) {
-    #contact-us div{
+    .contact-us div{
         width: 100%;
         padding: 20px;
         margin: 0 auto;
     } 
 
-    #contact-us div h5{
+    .contact-us div h5{
         font-weight: 900;
     }
 
-    #contact-us div~div button{
+    .contact-us div~div button{
         width: 100%;
         margin: 0 auto;
         margin-top: 50px;
@@ -474,7 +474,7 @@
     }
 }
 
-#contact-us div~div button:hover{
+.contact-us div~div button:hover{
     box-shadow: 0 2px 5px gray;
 }
 
