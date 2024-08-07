@@ -25,37 +25,49 @@ const background6=document.getElementById("background6");
 background1.addEventListener("click",function(){
     document.getElementById("nav").style.left="-50%";    
     document.getElementById("hideNav").style.visibility="collapse";
-    document.getElementById("showNav").style.visibility="visible";
+    if(window.innerWidth<=425){
+        document.getElementById("showNav").style.visibility="visible";
+    }
 });
 
 background2.addEventListener("click",function(){
     document.getElementById("nav").style.left="-50%";
     document.getElementById("hideNav").style.visibility="collapse";
-    document.getElementById("showNav").style.visibility="visible";
+    if(window.innerWidth<=425){
+        document.getElementById("showNav").style.visibility="visible";
+    }
 });
 
 background3.addEventListener("click",function(){
     document.getElementById("nav").style.left="-50%";
     document.getElementById("hideNav").style.visibility="collapse";
-    document.getElementById("showNav").style.visibility="visible";
+    if(window.innerWidth<=425){
+        document.getElementById("showNav").style.visibility="visible";
+    }
 });
 
 background4.addEventListener("click",function(){
     document.getElementById("nav").style.left="-50%";
     document.getElementById("hideNav").style.visibility="collapse";
-    document.getElementById("showNav").style.visibility="visible";
+    if(window.innerWidth<=425){
+        document.getElementById("showNav").style.visibility="visible";
+    }
 });
 
 background5.addEventListener("click",function(){    
     document.getElementById("nav").style.left="-50%";
     document.getElementById("hideNav").style.visibility="collapse";
-    document.getElementById("showNav").style.visibility="visible";
+    if(window.innerWidth<=425){
+        document.getElementById("showNav").style.visibility="visible";
+    }
 });
 
 background6.addEventListener("click",function(){
     document.getElementById("nav").style.left="-50%";
     document.getElementById("hideNav").style.visibility="collapse";
-    document.getElementById("showNav").style.visibility="visible";
+    if(window.innerWidth<=425){
+        document.getElementById("showNav").style.visibility="visible";
+    }
 });
 
 //profile icon edits
