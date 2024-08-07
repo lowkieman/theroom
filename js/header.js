@@ -73,6 +73,8 @@ background6.addEventListener("click",function(){
 //profile icon edits
 const accountAction=document.getElementById("getaccount-action");
 const useIcon=document.getElementById("icon");
+const action1=document.getElementById("action1");
+const log1=document.getElementById("log")
 
 accountAction.addEventListener("click",function(){
     document.getElementById("account-action").style.display="block";    
@@ -80,7 +82,16 @@ accountAction.addEventListener("click",function(){
 useIcon.addEventListener("click",function(){
     document.getElementById("account-action").style.display="block";
 });
+//what happens to icon edits when loads
+action1.addEventListener("click",function(){
+    document.getElementById("account-action").style.display="none";
+});
+log1.addEventListener("click",function(){
+    document.getElementById("account-action").style.display="none";
+})
 
+
+//what happens to login form inputs
 email.addEventListener("click",function(){
     document.getElementById("email").style.border="2px solid pink";
 });
