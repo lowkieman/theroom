@@ -28,6 +28,27 @@ html,body{
     width: 70%;
     margin: 0 auto;
 }
+
+.bi-list{
+    margin: 20px 0 0 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+.bi-x{
+    margin: 20px 0 0 10px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    font-size: 25px;
+    top: 0;
+    visibility: hidden;
+}
+
 @media screen and (max-width:425px) {
     #header-icon{
         width: 50%;
@@ -184,24 +205,10 @@ html,body{
 }
 
 /*NAVIGATION*/
-#nav .bi-list{
-    margin: 20px 0 0 10px;
-    color: black;
-    font-weight: bold;
-    font-size: 25px;
-    position: absolute;
-    top: 0;
-    display: none;
-}
-
-#nav .bi-x{
-    margin: 20px 0 0 10px;
-    color: black;
-    font-weight: bold;
-    position: absolute;
-    font-size: 25px;
-    top: 0;
-    display: none;
+#nav{
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
 }
 
 #nav ul{
@@ -225,20 +232,29 @@ html,body{
 }
 
 @media screen and (max-width:575px) {
-    #nav .bi-list{
-        display: block;
+    .bi-list{
+        visibility: visible;
+    }
+    .bi-x{
+        visibility: hidden;
+    }
+    #nav{
+        margin: 0 auto;
+        width: 50%;
+        position: fixed;
+        height: 100%;
+        left: -50%;
+        transition-duration: 1s;
+        box-shadow: 0px 3px 5px gray;
+        
     }
 
     #nav ul{
         display: block;
-        top: 79px;
-        margin: 0;
-        position: absolute;
-        height: inherit;
-        transition-duration: 1s;display: none;
+        margin: 0 auto;
+        transition-duration: 1s;
         background-color: white;
-        box-shadow: -1px 1px 5px black;
-        width: 50%;
+        width: 100%;
     }
 
     #nav ul li a:hover{

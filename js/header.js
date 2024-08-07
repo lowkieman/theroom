@@ -1,17 +1,61 @@
 //NAVIGATION BAR FOR MOBILE SCREENS
+const showNav=document.getElementById("showNav");
+const hideNav=document.getElementById("hideNav");
 
-const show=document.getElementById("shownav");
-const hide=document.getElementById("hidenav");
-
-show.addEventListener("click",function(){
-    document.getElementById("shownav").style.display="none";
-    document.getElementById("show").style.display="block";
-    document.getElementById("hidenav").style.display="block"
+showNav.addEventListener("click",function(){
+    document.getElementById("nav").style.left="0";
+    document.getElementById("hideNav").style.visibility="visible";
+    document.getElementById("showNav").style.visibility="collapse";
 });
-hide.addEventListener("click",function(){
-    document.getElementById("show").style.display="none";
-    document.getElementById("shownav").style.display="block";
-    document.getElementById("hidenav").style.display="none";
+
+hideNav.addEventListener("click",function(){
+    document.getElementById("nav").style.left="-50%";
+    document.getElementById("hideNav").style.visibility="collapse";
+    document.getElementById("showNav").style.visibility="visible";
+});
+
+//What happen when nav links are clicked
+const background1=document.getElementById("background1");
+const background2=document.getElementById("background2");
+const background3=document.getElementById("background3");
+const background4=document.getElementById("background4");
+const background5=document.getElementById("background5");
+const background6=document.getElementById("background6");
+
+background1.addEventListener("click",function(){
+    document.getElementById("nav").style.left="-50%";    
+    document.getElementById("hideNav").style.visibility="collapse";
+    document.getElementById("showNav").style.visibility="visible";
+});
+
+background2.addEventListener("click",function(){
+    document.getElementById("nav").style.left="-50%";
+    document.getElementById("hideNav").style.visibility="collapse";
+    document.getElementById("showNav").style.visibility="visible";
+});
+
+background3.addEventListener("click",function(){
+    document.getElementById("nav").style.left="-50%";
+    document.getElementById("hideNav").style.visibility="collapse";
+    document.getElementById("showNav").style.visibility="visible";
+});
+
+background4.addEventListener("click",function(){
+    document.getElementById("nav").style.left="-50%";
+    document.getElementById("hideNav").style.visibility="collapse";
+    document.getElementById("showNav").style.visibility="visible";
+});
+
+background5.addEventListener("click",function(){    
+    document.getElementById("nav").style.left="-50%";
+    document.getElementById("hideNav").style.visibility="collapse";
+    document.getElementById("showNav").style.visibility="visible";
+});
+
+background6.addEventListener("click",function(){
+    document.getElementById("nav").style.left="-50%";
+    document.getElementById("hideNav").style.visibility="collapse";
+    document.getElementById("showNav").style.visibility="visible";
 });
 
 //profile icon edits
