@@ -78,7 +78,15 @@ background4.addEventListener("click",function(){
     document.getElementById("alx").style.display="none";//alx page
     document.getElementById("community").style.display="none"//community page
     document.getElementById("opportunities").style.display="none";//opportunities page
-    document.getElementById("profile").style.display="flex";//profile page
+
+    //profile page
+    const width=window.innerWidth;
+    if(width<=425){
+    document.getElementById("profile").style.display="block";
+    }
+    else{
+    document.getElementById("profile").style.display="flex";
+    }
     document.getElementById("redeem").style.display="none";//legacy points page *redeem
     document.getElementById("contact-us").style.display="none";//contact us page
     document.getElementById("login").style.display="none";//login

@@ -487,6 +487,19 @@ html,body{
     flex-wrap: wrap;
 }
 
+@media screen and (max-width:425px) {
+    #copyright{
+        margin: 10px auto;
+        padding: 0;
+        width: 70%;
+        display: flex;
+        justify-content: left;
+        color: white;
+        flex-wrap: wrap;
+        font-size: 15px;
+    } 
+}
+
 #copyright div{
     margin: 0 0 0 30px;
     padding-left: 5px;
@@ -521,6 +534,17 @@ html,body{
     display: block;
     width: 25%; 
     color: white;
+}
+
+@media screen and (max-width:425px) {
+    #social-media-icons ul li a{
+        padding: 0px;
+        margin-right: 10px;
+        display: block;
+        width: 25%; 
+        color: white;
+        font-size: 15px;
+    }   
 }
 
 #community,#opportunities,#profile,#redeem,#contact-us,#login{
