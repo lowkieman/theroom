@@ -1,0 +1,253 @@
+/* professional profile
+*
+*/
+#profile{
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+@media screen and (max-width:425px) {
+    #profile{
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+        border: none;
+        display: block;
+        display: none;
+    }
+    
+}
+
+
+#profile3{
+    width: 60%;
+    margin: 10px;
+}
+
+@media screen and (max-width:425px) {
+    #profile3{
+        width: 100%;
+    }
+    
+}
+
+#profile4{
+    width: 40%;
+    margin: 10px;
+}
+
+@media screen and (max-width:425px) {
+    #profile4{
+    width: 100%;
+    }
+    
+}
+
+/*profile3*/
+
+.pro31,.pro32,.pro33,.pro34,.pro35{
+    margin: 20px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+}
+
+.pro31 img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 10px solid whitesmoke;
+    border-radius: 50%;
+}
+
+.pro31 .bi-camera-fill{
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    border: 5px solid lightgrey;
+    border-radius: 50%;
+    padding: 0 6px 0 6px;
+    left: -50px;
+    top: 50px;
+    background-color: white;
+}
+
+.pro31 div{
+    display: flex;
+    justify-content:right;
+}
+
+.pro31 div h1{
+    width: 100%;
+}
+
+.pro31 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pro32 div{
+    display: flex;
+    justify-content: right;
+}
+
+.pro32 div h4{
+    width: 100%;
+}
+
+.pro33 div{
+    display: flex;
+    justify-content: right;
+}
+
+.pro33 div h4{
+    width: 100%;
+}
+
+.pro33 button{
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgb(50, 139, 255);
+    color: white;
+    border: none;
+    border-radius: 10%/66%;
+}
+
+.pro33 button:hover{
+    box-shadow: 1px 1px 7px grey;
+}
+
+.pro34 div{
+    display: flex;
+    justify-content: right;
+}
+
+.pro34 div h4{
+    width: 30%;
+}
+
+.pro34 div #pro34{
+    width: 70%;
+    text-align: right;
+    color: deepskyblue;
+    font-style: normal;
+}
+
+.pro34 div #pro34b{
+    width: 70%;
+    text-align: right;
+    color: gray;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+
+.pro35{
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+}
+
+.pro35 h4{
+    width: 90%;
+}
+
+.pro35 span{
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+    color: gray;
+    font-weight: bold;
+}
+
+/*profile4*/
+.pro41,.pro42,.pro43,.pro44{
+    margin: 20px auto;
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+}
+
+.pro41{
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+}
+
+.pro41 h4{
+    width: 100%;
+}
+
+.pro42 h6{
+    text-align: center;
+}
+
+.pro42 #pro42{
+    display: flex;
+}
+
+#pro42a{
+    margin: 0 auto;
+    padding: 0;
+    width: 10%;
+}
+#pro42a span{
+    margin: 20px auto;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid deepskyblue;
+    text-align: center;
+    text-transform: capitalize;
+    color: deepskyblue;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+#pro42b{
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#pro42b button{
+    margin: 1px;
+    border: none;
+    padding: 0;
+    width: 45%;
+    display: block;
+    background-color: inherit;
+    color: deepskyblue;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.pro43{
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+}
+
+.pro43 h4{
+    width: 100%;
+}
+
+.pro44 button{
+    display: block;
+    border: 1px solid deepskyblue;
+    background-color: inherit;
+    color: deepskyblue;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 15%/60%;
+}
