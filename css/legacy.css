@@ -1,0 +1,73 @@
+/*Legacy points page*/
+#redeem{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(242, 244, 247);
+}
+
+#images{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+#images img{
+    width: inherit;
+    margin-bottom: 10px;
+    position: absolute;
+    opacity: 1;
+    height: 75vh;
+}
+
+#chevron-left{
+    position: absolute;
+    left: 0;
+    top: 30vh;
+    background-color: inherit;
+    font-size: 20px;
+    border: 2px solid gray;    
+    border-radius: 50%;
+    padding: 0 5px 0 5px;
+    color: lightgray;
+    z-index: 1;
+}
+
+#chevron-left:hover{
+    background-color: aliceblue;
+    border: 2px solid blue;
+    color: blue;      
+}
+
+#chevron-right{
+    position: absolute;
+    right: 0;
+    top: 30vh;
+    background-color: inherit;
+    font-size: 20px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    padding: 0 5px 0 5px;
+    color: lightgray;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+#chevron-right:hover{
+    background-color: aliceblue;
+    border: 2px solid blue;
+    color: blue;      
+}
+
+/*REDEEM Main page*/
+
+#redeem-main{
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(242, 244, 247);
+    width: 85%;
+    box-shadow: 2px 2px 10px lightgray;
+    border-radius: 20px;
+    position: relative;
+    top: 65vh;
+}
