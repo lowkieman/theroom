@@ -9,21 +9,20 @@
 #images{
     margin: 0 auto;
     width: 100%;
-    position: relative;
+    height: 75vh;
 }
 
 #images img{
     width: inherit;
     margin-bottom: 10px;
     position: absolute;
-    opacity: 1;
     height: 75vh;
 }
 
 #chevron-left{
     position: absolute;
     left: 0;
-    top: 30vh;
+    top: 50vh;
     background-color: inherit;
     font-size: 20px;
     border: 2px solid gray;    
@@ -42,14 +41,13 @@
 #chevron-right{
     position: absolute;
     right: 0;
-    top: 30vh;
+    top: 50vh;
     background-color: inherit;
     font-size: 20px;
     border: 2px solid lightgray;
     border-radius: 50%;
     padding: 0 5px 0 5px;
     color: lightgray;
-    opacity: 0.8;
     z-index: 1;
 }
 
@@ -69,5 +67,33 @@
     box-shadow: 2px 2px 10px lightgray;
     border-radius: 20px;
     position: relative;
-    top: 65vh;
+    top: -10vh;
+    padding: 10px;
+}
+
+/*rewards*/
+.rewards{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rewards div{
+    margin: 10px auto;
+    padding: 0;
+    width: 40%;
+    border: 1px solid deepskyblue;
+    border-radius: 10px;
+}
+
+.rewards div img{
+    width: 100%;
+    height: 35vh;
+    border-radius: 10px 10px 0 0;
+}
+
+.rewards div figcaption{
+    padding: 10px;
 }
