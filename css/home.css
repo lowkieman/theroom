@@ -218,17 +218,17 @@ html,body{
     list-style-type: none;
 }
 
-#nav ul li a{
+#nav ul li{
     text-decoration: none;
     text-transform: capitalize;
     color: black;
     display: block;
-    width: 100%;
     padding: 10px;
 }
 
-#nav ul li a:hover{
+#nav ul li:hover{
     color: blue;
+    border-bottom: 1px solid blue;
 }
 
 @media screen and (max-width:575px) {
@@ -257,7 +257,7 @@ html,body{
         width: 100%;
     }
 
-    #nav ul li a:hover{
+    #nav ul li:hover{
         width: 100%;
         background-color: rgba(208, 207, 209, 0.5);
     }
