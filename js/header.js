@@ -34,6 +34,7 @@ background1.addEventListener("click",function(){
     document.getElementById("redeem").style.display="none";//legacy points page *redeem
     document.getElementById("contact-us").style.display="none";//contact us page
     document.getElementById("login").style.display="none";//login
+    document.getElementById("action").style.display="none";
     if(window.innerWidth<=425){
         document.getElementById("showNav").style.visibility="visible";
     }
@@ -50,6 +51,7 @@ background2.addEventListener("click",function(){
     document.getElementById("redeem").style.display="none";//legacy points page *redeem
     document.getElementById("contact-us").style.display="none";//contact us page
     document.getElementById("login").style.display="none";//login
+    document.getElementById("action").style.display="none";
     if(window.innerWidth<=425){
         document.getElementById("showNav").style.visibility="visible";
     }
@@ -66,6 +68,7 @@ background3.addEventListener("click",function(){
     document.getElementById("redeem").style.display="none";//legacy points page *redeem
     document.getElementById("contact-us").style.display="none";//contact us page
     document.getElementById("login").style.display="none";//login
+    document.getElementById("action").style.display="none";
     if(window.innerWidth<=425){
         document.getElementById("showNav").style.visibility="visible";
     }
@@ -90,6 +93,7 @@ background4.addEventListener("click",function(){
     document.getElementById("redeem").style.display="none";//legacy points page *redeem
     document.getElementById("contact-us").style.display="none";//contact us page
     document.getElementById("login").style.display="none";//login
+    document.getElementById("action").style.display="none";
     if(window.innerWidth<=425){
         document.getElementById("showNav").style.visibility="visible";
     }
@@ -106,6 +110,7 @@ background6.addEventListener("click",function(){
     document.getElementById("redeem").style.display="none";//legacy points page *redeem
     document.getElementById("contact-us").style.display="flex";//contact us page
     document.getElementById("login").style.display="none";//login
+    document.getElementById("action").style.display="none";
     if(window.innerWidth<=425){
         document.getElementById("showNav").style.visibility="visible";
         document.getElementById("contact-us").style.display="block";//contact us page
@@ -114,31 +119,27 @@ background6.addEventListener("click",function(){
 });
 
 //profile icon edits
-const accountAction=document.getElementById("getaccount-action");
-const useIcon=document.getElementById("icon");
-const action1=document.getElementById("action1");
-const log1=document.getElementById("log")
-
-accountAction.addEventListener("click",function(){
-    document.getElementById("account-action").style.display="block";    
-}); 
-useIcon.addEventListener("click",function(){
-    document.getElementById("account-action").style.display="block";
+const getAction=document.getElementById("name");
+getAction.addEventListener("click",function(){
+    document.getElementById("action").style.display="block";
 });
-//what happens to icon edits when loads
+
+const action1=document.getElementById("action1");
 action1.addEventListener("click",function(){
-    document.getElementById("account-action").style.display="none";
+    document.getElementById("action").style.display="none";
     document.getElementById("alx").style.display="none";//alx page
     document.getElementById("community").style.display="none"//community page
     document.getElementById("opportunities").style.display="none";//opportunities page
-    document.getElementById("profile").style.display="block";//profile page
+    document.getElementById("profile").style.display="flex";//profile page
     document.getElementById("redeem").style.display="none";//legacy points page *redeem
     document.getElementById("contact-us").style.display="none";//contact us page
     document.getElementById("login").style.display="none";//login
     
 });
+
+const log1=document.getElementById("log");
 log1.addEventListener("click",function(){
-    document.getElementById("account-action").style.display="none";
+    document.getElementById("action").style.display="none";
     document.getElementById("alx").style.display="none";//alx page
     document.getElementById("community").style.display="none"//community page
     document.getElementById("opportunities").style.display="none";//opportunities page

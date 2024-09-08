@@ -29,6 +29,14 @@ html,body{
     margin: 0 auto;
 }
 
+#header-icon a img{
+    margin: 5px 0 0 30px;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+
 .bi-list{
     margin: 20px 0 0 10px;
     color: black;
@@ -99,57 +107,58 @@ html,body{
     height: 30px;
 }
 
-#Profile1{
+#profile1{
     margin: 0 auto;
-    padding: 0;
+    padding: 0 0 0 30px;
     width: 60%;
 }
 
-@media screen and (max-width:425px) {
-    #profile{
-        width: 50%;
-    }  
+#profile1 #name{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.Profile{
-    display: block;
-    padding: 5px;
+#profile1 #name #icon{
     margin: 20px auto;
-    border: none;
-}
-
-#icon{
+    padding: 7px 10px;
+    background-color: lightgray;
+    font-size: 20px;
+    width: 21%;
     border: none;
     border-radius: 50%;
-    background-color: rgba(201, 197, 197,0.8);
-    padding: 2px 5px 2px 5px;
     text-transform: uppercase;
     font-weight: bold;
-    color: white;
-    width: fit-content;
-    display: inline-block;
 }
 
-#header-icon a img{
-    margin: 5px 0 0 30px;
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
+#profile1 #name #icon:hover{
+    color: grey;
 }
 
-#account-action{
-    margin: 0;
+#profile1 #name .hidename{
+    margin: 20px auto;
+    width: 79%;
+    padding: 7px 10px;
+
+}
+
+#profile1 #name .hidename:hover{
+    background-color: rgb(242, 244, 247);
+}
+
+#action{
+    margin: 0 auto;
     padding: 0;
     list-style-type: none;
     display: none;
     position: absolute;
-    right: 3px;
+    right: 0px;
     top: 70px;
     background-color: white;
     box-shadow: 1px 1px 3px gray;
 }
 
-#account-action li a{
+#action li{
     text-decoration: none;
     display: block;
     color: black;
@@ -159,11 +168,11 @@ html,body{
     border-bottom: 2px solid whitesmoke;
 }
 
-#account-action li #log{
+#action #log{
     border-bottom: none;
 }
 
-#account-action li a:hover{
+#action li:hover{
     background-color: rgb(241,243,247);
 }
 

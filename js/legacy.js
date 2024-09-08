@@ -12,13 +12,11 @@ background5.addEventListener("click",function(){
     document.getElementById("redeem").style.display="block";   
     document.getElementById("main").style.paddingTop="0";   
     document.getElementById("main").style.paddingBottom="0";
-    /*
-    document.getElementById("footer").style.position="relative";
-    document.getElementById("footer").style.bottom="0"  */ 
     
     //contact us page
     document.getElementById("contact-us").style.display="none";
     document.getElementById("login").style.display="none";//login
+    document.getElementById("action").style.display="none";
     if(window.innerWidth<=425){
         document.getElementById("showNav").style.visibility="visible";
     }

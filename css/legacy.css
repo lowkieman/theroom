@@ -12,13 +12,6 @@
     height: 75vh;
 }
 
-#images img{
-    width: inherit;
-    margin-bottom: 10px;
-    position: absolute;
-    height: 75vh;
-}
-
 #chevron-left{
     position: absolute;
     left: 0;
