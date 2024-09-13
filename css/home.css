@@ -323,7 +323,7 @@ html,body{
 
 }
 
-#login2 #google button a{
+#login2 #google button{
     color: black;
 }
 
@@ -346,7 +346,8 @@ html,body{
 }
 
 #login2 #submit{
-    margin: 0px auto;
+    margin: 30px auto;
+
 }
 
 #login2 #submit button{
@@ -358,8 +359,8 @@ html,body{
 }
 
 #login2 #more-description{
-    margin: 10px auto;
-    padding: 0px;
+    margin: 0 auto;
+    padding: 10px;
     width: 60%;
 
 }
