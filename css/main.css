@@ -3,10 +3,10 @@
 }
 
 #main{
-    background-color: rgb(242, 244, 247);
+    background-color: rgb(249, 251, 255);
     margin: 0 auto;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     height: 100%;
     
 }
@@ -21,10 +21,9 @@
 }
 #main #alx{
     padding: 20px;
-    margin: 20px auto;
-    background-color: inherit;
-    width: 85%;
-    box-shadow: 0.5px 0.5px 5px gray; 
+    margin: 20px auto 0 auto;
+    background-color: white;
+    width: 90%;
     border: none;
     border-radius: 20px;
 }
