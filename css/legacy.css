@@ -50,6 +50,13 @@
     color: blue;      
 }
 
+#availablepoints{
+    margin: 0 auto;
+    padding: 0;
+    background-color: lime;
+    color: blue;
+}
+
 /*REDEEM Main page*/
 
 #redeem-main{
