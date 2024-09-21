@@ -24,5 +24,4 @@ submit.addEventListener("click",function(){
     document.getElementById("login").style.display="none"; 
     document.getElementById("nav").style.display="block";
     document.getElementById("account").style.visibility="visible";
-    document.getElementById("header").style.backgroundColor="rgb(242, 244, 247)";
     document.getElementById("footer").style.position="static";})
