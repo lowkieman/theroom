@@ -3,83 +3,81 @@
 }
 
 #main{
-    background-color: rgb(249, 251, 255);
     margin: 0 auto;
-    padding-top: 40px;
-    padding-bottom: 0px;
     height: 100%;
-    
+    background-color: rgb(229, 232, 236);
+    border-top: 1px solid rgb(229, 232, 236);
 }
 
 /*learning-alx*/
 #alx,#community,#opportunities,#profile,#redeem,#contact-us,#login{
     background-color: inherit;
 }
-#main #alx{
+#alx{
+    margin: 50px auto 0 auto;
     padding: 20px;
-    margin: 20px auto 0 auto;
-    background-color: white;
-    width: 90%;
+    background-color: rgb(242, 244, 247);
+    width: 88%;
+    height: 100%;
     border: none;
     border-radius: 20px;
 }
 
-#main #alx #a div{
+#alx #a div{
     color: gray;
 }
 
-#main #alx #b{
+#b{
     background-color: #e4e7ec;
     margin: 0 auto;
     padding: 0;
 }
 
-#main #alx #b #c{
+#c{
     display: flex;
 }
 
-#main #alx #b #c #d{
+#d{
     margin: 0 auto;
     padding: 5px;
     width:10%;
 }
 
 
-#main #alx #b #c #d div{
+#d div{
     margin: 0 auto;
     padding: 0;
     text-align: center;
     font-size: 20px;
-    background-color: red;
 }
 
-#main #alx #b #c #d div img{
+#d div img{
     display: block;
-    margin: 0 auto;
+    margin: 10px auto 0 auto;
+    padding: 0;
     width: 70%;
     height: 70%;
-    background-color: lime;
 }
 
-#main #alx #b #c #e{
+#e{
     width: 60%;
     margin: 0 auto;
     padding: 5px;
     font-size: 15.9px;
 }
 
-#main #alx #b #c #e div{
+#e div{
     color: gray;
 }
 
-#main #alx #b #c #f{
+#f{
     width: 30%;
     text-align: right;
     padding-right: 20px;
     font-weight: bold;
 }
 
-#main #alx #b #c #f a{
+#f a{
     text-decoration: none;
     display: inline-block;
     padding-top: 2.5rem;
@@ -92,24 +90,25 @@
     display: flex;
 }
 
-#main #alx #g #g1,#g2{
+#g #g1,#g2{
     margin: 40px auto;
     padding: 0;
     width: 50%;
 }
 
-#main #alx #g #g2 h4{
+#g2 h4{
     margin-top: 20px;
 
 }
 
-#main #alx #g #g2 div{
+#g2 div{
     margin-top: 20px;
     width: 90%;
     color: gray;
 
 }
-#main #alx #g #g2 button{
+
+#g2 button{
     margin: 40px 0 0 0;
     text-decoration: none;
     background-color: rgb(24, 144, 255);
@@ -120,11 +119,11 @@
     border-radius: 10px;
 }
 
-#main #alx #g #g2 button:hover{
+#g2 button:hover{
     box-shadow: 1px 0px 5px gray;
 }
 
-#main #alx #g #g2 button a{
+#g2 button a{
     text-decoration: none;
     background-color: rgb(24, 144, 255);
     color: white;
@@ -137,11 +136,10 @@
 *
 */
 #community{
-    margin: 20px auto;
+    margin: 10px auto 0 auto;
     height: auto;
-    background-color: inherit;
+    background-color: rgb(242, 244, 247);
     width: 85%;
-    box-shadow: 0.5px 0.5px 5px gray; 
     border: none;
     border-radius: 20px;
     padding: 20px;
@@ -173,11 +171,11 @@
     }
 }
 
+/*Opportunities page*/
 #opportunities{
-    margin: 20px auto;
-    background-color: inherit;
+    margin: 10px auto 0 auto;
+    background-color: rgb(242, 244, 247);
     width: 85%;
-    box-shadow: 0.5px 0.5px 5px gray; 
     border: none;
     border-radius: 20px;
     padding: 30px;
@@ -351,7 +349,6 @@
     #main #alx #g #g1{
         display: none;
         margin: 0;
-        background-color: red;
     }
     
     #main #alx #g #g2 h4{
@@ -384,19 +381,18 @@
 *
 */
 
-.contact-us{
-    width: 85%;
-    margin: 40px auto;
+#contact-us{
+    margin: 10px auto 0 auto;
     padding: 30px;
-    box-shadow: 2px 2px 10px gray;
+    width: 85%;
     display: flex;
     border: none;
     border-radius: 20px;
-    background-color: inherit;
+    background-color: rgb(242, 244, 247);
 }
 
 @media screen and (max-width:425px) {
-    .contact-us{
+    #contact-us{
         width: 100%;
         margin: 40px auto;
         padding: 30px;
@@ -404,25 +400,24 @@
         display: block;
         border: none;
         border-radius: 0;
-        background-color: inherit; 
     }
     
 }
 
-.contact-us div{
+#contact-us div{
     width: 50%;
     padding: 20px;
     margin: 20px;
 }
 
-.contact-us div~div{
+#contact-us div~div{
     background-color: white;
     text-align: center;
     border: 1px solid lightgray;
     border-radius: 15px;
 }
 
-.contact-us div~div button{
+#contact-us div~div button{
     display: block;
     width: 90%;
     border: none;
@@ -437,17 +432,17 @@
 }
 
 @media screen and (max-width:425px) {
-    .contact-us div{
+    #contact-us div{
         width: 100%;
         padding: 20px;
         margin: 0 auto;
     } 
 
-    .contact-us div h5{
+    #contact-us div h5{
         font-weight: 900;
     }
 
-    .contact-us div~div button{
+    #contact-us div~div button{
         width: 100%;
         margin: 0 auto;
         margin-top: 50px;
@@ -455,7 +450,7 @@
     }
 }
 
-.contact-us div~div button:hover{
+#contact-us div~div button:hover{
     box-shadow: 0 2px 5px gray;
 }
 
