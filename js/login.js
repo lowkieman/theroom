@@ -11,7 +11,6 @@ getLogin.addEventListener("click",function(){
 
 window.addEventListener("load",function(){
     document.getElementById("nav").style.display="none";
-    document.getElementById("account").style.visibility="hidden";
     document.getElementById("header").style.backgroundColor="rgb(242, 244, 247)";
     document.getElementById("footer").style.position="fixed";
     document.getElementById("footer").style.bottom="0";

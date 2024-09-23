@@ -156,13 +156,6 @@ log1.addEventListener("click",function(){
 
 
 //what happens to login form inputs
-email.addEventListener("click",function(){
-    document.getElementById("email").style.border="2px solid pink";
-});
-email.addEventListener("blur",function(){
-    document.getElementById("email").style.border="1px solid gray";
-});
-
 const sms=document.getElementById("email");
 
 sms.addEventListener("click",function(){
