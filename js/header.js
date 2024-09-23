@@ -14,6 +14,8 @@ hideNav.addEventListener("click",function(){
     document.getElementById("showNav").style.visibility="visible";
 });
 
+document.getElementById("contact-us").style.display="none";//contact us page
+
 //What happen when nav links are clicked
 //#alx,#community,#opportunities,#profile,#redeem,#contact-us,#login
 const background1=document.getElementById("background1");//has #alx
