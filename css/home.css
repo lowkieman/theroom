@@ -13,6 +13,7 @@ html,body{
     margin: 0 auto;
     padding: 0;
     background-color: white;
+    width: 100%;
 }
 
 #header1{
@@ -23,14 +24,54 @@ html,body{
     width: 100%;
 }
 
+.bi-list{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 5px;
+    display: none;
+}
+
+.bi-x{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 5px;
+    display: none;
+}
+
+@media screen and (max-width:425px) {/*mobile mode*/
+    .bi-list{
+        position: absolute;
+        font-size: 30px;
+        margin-top: 5px;
+        display: block;
+    }
+    
+    .bi-x{
+        position: absolute;
+        font-size: 30px;
+        margin-top: 5px;
+        display: block;
+    }
+}
+
 .header-icon{
     margin: 0 auto;
     padding: 0;
     width: 75%;
+    font-size: 32px;
 }
 
-.header-icon .listnav{
-    display: none;
+@media screen and (min-width:425px) and (max-width:768px) {/*Tablet mode*/
+    .header-icon{
+        width: 60%;
+    }
+   
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {/*Large Mobile*/
+    .header-icon{
+        width: 30%;
+    }
 }
 
 .header-icon div img{
@@ -38,6 +79,15 @@ html,body{
     padding: 0;
     width: 47px;
     height: 47px;
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {/*Large Mobile*/
+    .header-icon div img{
+        margin: 10px 0 5px 40px;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+    }
 }
 
 .points{
@@ -49,6 +99,18 @@ html,body{
     text-align: center;
     border: 1px solid lightgray;
     border-radius: 30%/100%;
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {/*Tablet mode*/
+    .points{
+        width: 17%;
+    } 
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {/*Large Mobile*/
+    .points{
+        width: 30%;
+    } 
 }
 
 .points div img{
@@ -74,12 +136,33 @@ html,body{
     position: relative;
 }
 
+@media screen and (min-width:425px) and (max-width:768px) {/*Tablet mode*/
+    .account{
+        width: 23%;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {/*Large Mobile*/
+    .account{
+        width: 40%;
+    }
+}
+
 .account #name{
     margin: 10px 0 0 10px;
     padding: 0;
     display: flex;
     font-size: 20px;
 }
+
+@media screen and (min-width:425px) and (max-width:768px) {/*Tablet mode*/
+   
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {/*Large Mobile*/
+
+}
+
 
 .account #name:hover .bi-chevron-down{
     color: lightgray;
@@ -91,7 +174,10 @@ html,body{
     text-align: center;
     font-weight: bold;
     background-color: rgb(241,243,247);
+}
 
+@media screen and (min-width:425px) and (max-width:768px) {/*Tablet mode*/
+   
 }
 
 .account #name .hidename{
@@ -99,7 +185,10 @@ html,body{
     padding: 5px 0;
     font-weight: normal;
     font-size: 18px;
+}
 
+@media screen and (min-width:425px) and (max-width:768px) {/*Tablet mode*/
+   
 }
 
 .account #action{
@@ -112,11 +201,45 @@ html,body{
     top: 63px;
     right: 0;
     border-radius: 10px 0 10px 10px;
+    display: none;
 }
+
+@media screen and (min-width:425px) and (max-width:768px) {/*Tablet mode*/
+    .account #action{
+        top: 63px;
+        right: 0;
+        border-radius: 5px 0 5px 5px;
+        display: none;
+    }    
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {/*Large Mobile*/
+    .account #action{
+        top: 50px;
+        right: 0;
+        border-radius: 5px 0 5px 5px;
+        display: none;
+    }   
+}
+
 
 .account #action li{
     padding: 10px 7px;
     font-size: 18px;
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {/*Tablet mode*/
+    .account #action li{
+        padding: 7px 4px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {/*Large Mobile*/
+    .account #action li{
+        padding: 4px;
+        font-size: 15px;
+    }
 }
 
 #action1{
@@ -133,6 +256,11 @@ html,body{
     margin: 0 auto;
     padding: 0;
     width: 100%;
+    background-color: white;
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {/*Tablet mode*/
+        
 }
 
 #nav ul{
@@ -141,6 +269,20 @@ html,body{
     padding: 0;
     list-style-type: none;
 }
+
+@media screen and (min-width:425px) and (max-width:768px) {/*Tablet mode*/
+    #nav ul{
+        display: flex;
+        margin: 0 0 0 10px;
+        padding: 0;
+        list-style-type: none;
+    }  
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {/*Large Mobile*/
+
+}
+
 
 #nav ul li{
     text-decoration: none;
@@ -152,12 +294,31 @@ html,body{
     color: rgb(50, 50, 50);
 }
 
+@media screen and (min-width:425px) and (max-width:768px) {/*Tablet mode*/
+     #nav ul li{
+        margin: 0 0 0 10px;
+        padding: 5px;
+        border-bottom: 1px solid white;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {/*Large Mobile*/
+
+}
+
 #nav ul li:hover{
     color: blue;
     border-bottom: 2px solid blue;
 }
 
+
+@media screen and (min-width:425px) and (max-width:768px) {/*Tablet mode*/
+        
+}
+
 @media screen and (max-width:575px) {
+
     .bi-list{
         visibility: visible;
     }
