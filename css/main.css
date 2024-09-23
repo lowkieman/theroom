@@ -10,9 +10,6 @@
 }
 
 /*learning-alx*/
-#alx,#community,#opportunities,#profile,#redeem,#contact-us,#login{
-    background-color: inherit;
-}
 #alx{
     margin: 50px auto 0 auto;
     padding: 20px;
@@ -385,7 +382,7 @@
     margin: 10px auto 0 auto;
     padding: 30px;
     width: 85%;
-    display: flex;
+    display: none;
     border: none;
     border-radius: 20px;
     background-color: rgb(242, 244, 247);
