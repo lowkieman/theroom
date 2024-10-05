@@ -501,6 +501,7 @@ html,body{
     border-radius: 20px;
     background-color: rgb(242, 244, 247); 
     height: 65vh;
+    display: none;
 }
 
 #login1{

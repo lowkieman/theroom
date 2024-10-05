@@ -6,50 +6,6 @@
     background-color: rgb(242, 244, 247);
 }
 
-#images{
-    margin: 0 auto;
-    width: 100%;
-    height: 75vh;
-}
-
-#chevron-left{
-    position: absolute;
-    left: 0;
-    top: 50vh;
-    background-color: inherit;
-    font-size: 20px;
-    border: 2px solid gray;    
-    border-radius: 50%;
-    padding: 0 5px 0 5px;
-    color: lightgray;
-    z-index: 1;
-}
-
-#chevron-left:hover{
-    background-color: aliceblue;
-    border: 2px solid blue;
-    color: blue;      
-}
-
-#chevron-right{
-    position: absolute;
-    right: 0;
-    top: 50vh;
-    background-color: inherit;
-    font-size: 20px;
-    border: 2px solid lightgray;
-    border-radius: 50%;
-    padding: 0 5px 0 5px;
-    color: lightgray;
-    z-index: 1;
-}
-
-#chevron-right:hover{
-    background-color: aliceblue;
-    border: 2px solid blue;
-    color: blue;      
-}
-
 #availablepoints{
     margin: 0 auto;
     padding: 0;
@@ -58,7 +14,6 @@
 }
 
 /*REDEEM Main page*/
-
 #redeem-main{
     margin: 0 auto;
     padding: 0;
