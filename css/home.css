@@ -13,6 +13,7 @@ html,body{
     margin: 0 auto;
     padding: 0;
     background-color: white;
+    width: 100%;
 }
 
 #header1{
@@ -20,6 +21,7 @@ html,body{
     padding: 0;
     display: flex;
     border-bottom: 1.5px solid lightgray;
+    width: 100%;
 }
 
 .bi-list{
@@ -60,7 +62,7 @@ html,body{
 .header-icon{
     margin: 0 auto;
     padding: 0;
-    width: 50%;
+    width: 75%;
     font-size: 32px;
 }
 
@@ -77,11 +79,7 @@ html,body{
     }
 }
 
-@media screen and (min-width:320px) and (max-width:375px) {/*medium devices*/
-   
-}
-
-@media screen and (max-width:320px) {/*small devices*/
+@media screen and (max-width:375px) {/*small devices*/
     .header-icon{
         width: 47%;
     }
@@ -107,7 +105,7 @@ html,body{
    
 }
 
-@media screen and (max-width:320px) {/*small devices*/
+@media screen and (max-width:375px) {/*small devices*/
     .header-icon div img{
         margin: 10px 0 5px 40px;
         padding: 0;
@@ -143,11 +141,7 @@ html,body{
     } 
 }
 
-@media screen and (min-width:320px) and (max-width:375px) {/*medium devices*/
-   
-}
-
-@media screen and (max-width:320px) {/*small devices*/
+@media screen and (max-width:375px) {/*small devices*/
     .points{
         margin: 10px auto;
         padding: 1px;
@@ -173,11 +167,7 @@ html,body{
     }
 }
 
-@media screen and (min-width:320px) and (max-width:375px) {/*medium devices*/
-   
-}
-
-@media screen and (max-width:320px) {/*small devices*/
+@media screen and (max-width:375px) {/*small devices*/
     .points div img{
         margin: 0 auto;
         padding: 0;
@@ -219,7 +209,7 @@ html,body{
    
 }
 
-@media screen and (max-width:320px) {/*small devices*/
+@media screen and (max-width:375px) {/*small devices*/
     .account{
         width: 30%;
         font-size: 20px;
@@ -241,11 +231,7 @@ html,body{
 
 }
 
-@media screen and (min-width:320px) and (max-width:375px) {/*medium devices*/
-   
-}
-
-@media screen and (max-width:320px) {/*small devices*/
+@media screen and (max-width:375px) {/*small devices*/
     .account #name{
         margin: 5px 0 0 5px;
         padding: 0;
@@ -280,10 +266,7 @@ html,body{
     }
 }
 
-@media screen and (min-width:320px) and (max-width:375px) {/*medium devices*/
-   
-}
-@media screen and (max-width:320px) {/*small devices*/
+@media screen and (max-width:375px) {/*small devices*/
     .account #name .icon{
         margin: 5px auto;
         padding: 4px 8px;
@@ -311,11 +294,7 @@ html,body{
     }
 }
 
-@media screen and (min-width:320px) and (max-width:375px) {/*medium devices*/
-   
-}
-
-@media screen and (max-width:320px) {/*small devices*/
+@media screen and (max-width:375px) {/*small devices*/
     .account #name .hidename{
         margin: 0 2px;
         padding: 5px 0;
@@ -356,11 +335,7 @@ html,body{
     }   
 }
 
-@media screen and (min-width:320px) and (max-width:375px) {/*medium devices*/
-   
-}
-
-@media screen and (max-width:320px) {/*small devices*/
+@media screen and (max-width:375px) {/*small devices*/
     .account #action{
         top: 56px;
         right: 0;
@@ -388,11 +363,8 @@ html,body{
         font-size: 15px;
     }
 }
-@media screen and (min-width:320px) and (max-width:375px) {/*medium devices*/
-   
-}
 
-@media screen and (max-width:320px) {/*small devices*/
+@media screen and (max-width:3375px) {/*small devices*/
     .account #action li{
         padding: 5px;
         font-size: 15px;
@@ -459,11 +431,7 @@ html,body{
     }
 }
 
-@media screen and (min-width:375px) and (max-width:425px) {/*Large Mobile*/
-
-}
-
-@media screen and (max-width:320px) {/*small devices*/
+@media screen and (max-width:375px) {/*small devices*/
     #nav ul li{
         margin: 0;
         padding: 5px;
