@@ -1,18 +1,20 @@
 //NAVIGATION BAR FOR MOBILE SCREENS
 const showNav=document.getElementById("showNav");
 const hideNav=document.getElementById("hideNav");
+const length = window.innerWidth;
 
 showNav.addEventListener("click",function(){
     document.getElementById("nav").style.left="0";
-    document.getElementById("hideNav").style.visibility="visible";
-    document.getElementById("showNav").style.visibility="collapse";
+    document.getElementById("hideNav").style.display = "block";
+    document.getElementById("showNav").style.display="none";
 });
 
 hideNav.addEventListener("click",function(){
     document.getElementById("nav").style.left="-50%";
-    document.getElementById("hideNav").style.visibility="collapse";
-    document.getElementById("showNav").style.visibility="visible";
+    document.getElementById("hideNav").style.display="none";
+    document.getElementById("showNav").style.display="block";
 });
+
 
 document.getElementById("contact-us").style.display="none";//contact us page
 if (window.innerWidth<320){
@@ -31,7 +33,7 @@ const background6=document.getElementById("background6");//#contact-us,#login
 //ALX PAGE
 background1.addEventListener("click",function(){
     document.getElementById("nav").style.left="-50%";    
-    document.getElementById("hideNav").style.visibility="collapse";
+    document.getElementById("hideNav").style.display="none";
     document.getElementById("alx").style.display="block";//alx page
     document.getElementById("community").style.display="none"//community page
     document.getElementById("opportunities").style.display="none";//opportunities page
@@ -41,15 +43,15 @@ background1.addEventListener("click",function(){
     document.getElementById("login").style.display="none";//login
     document.getElementById("action").style.display="none";
     if(window.innerWidth<=425){
-        document.getElementById("showNav").style.visibility="visible";
+        document.getElementById("showNav").style.display="block";
     }
 });
 
 
 //COMMUNITY
 background2.addEventListener("click",function(){
-    document.getElementById("nav").style.left="-50%";
-    document.getElementById("hideNav").style.visibility="collapse";
+    document.getElementById("nav").style.left="-50%";    
+    document.getElementById("hideNav").style.display="none";
     document.getElementById("alx").style.display="none";//alx page
     document.getElementById("community").style.display="block"//community page
     document.getElementById("opportunities").style.display="none";//opportunities page
@@ -58,15 +60,13 @@ background2.addEventListener("click",function(){
     document.getElementById("contact-us").style.display="none";//contact us page
     document.getElementById("login").style.display="none";//login
     document.getElementById("action").style.display="none";
-    if(window.innerWidth<=425){
-        document.getElementById("showNav").style.visibility="visible";
-    }
+    document.getElementById("showNav").style.display="block";
 });
 
 //OPPORTUNITIES PAGE
 background3.addEventListener("click",function(){
-    document.getElementById("nav").style.left="-50%";
-    document.getElementById("hideNav").style.visibility="collapse";
+    document.getElementById("nav").style.left="-50%";    
+    document.getElementById("hideNav").style.display="none";
     document.getElementById("alx").style.display="none";//alx page
     document.getElementById("community").style.display="none"//community page
     document.getElementById("opportunities").style.display="block";//opportunities page
@@ -75,15 +75,13 @@ background3.addEventListener("click",function(){
     document.getElementById("contact-us").style.display="none";//contact us page
     document.getElementById("login").style.display="none";//login
     document.getElementById("action").style.display="none";
-    if(window.innerWidth<=425){
-        document.getElementById("showNav").style.visibility="visible";
-    }
+    document.getElementById("showNav").style.display="block";
 });
 
 //PROFILE PAGE
 background4.addEventListener("click",function(){
-    document.getElementById("nav").style.left="-50%";
-    document.getElementById("hideNav").style.visibility="collapse";
+    document.getElementById("nav").style.left="-50%";    
+    document.getElementById("hideNav").style.display="none";
     document.getElementById("alx").style.display="none";//alx page
     document.getElementById("community").style.display="none"//community page
     document.getElementById("opportunities").style.display="none";//opportunities page
@@ -100,16 +98,14 @@ background4.addEventListener("click",function(){
     document.getElementById("contact-us").style.display="none";//contact us page
     document.getElementById("login").style.display="none";//login
     document.getElementById("action").style.display="none";
-    if(window.innerWidth<=425){
-        document.getElementById("showNav").style.visibility="visible";
-    }
+    document.getElementById("showNav").style.display="block";
 });
 
 //LEGACY POINTS PAGE *REDEEM
 background5.addEventListener("click",function(){    
-    document.getElementById("nav").style.left="-50%";
-    document.getElementById("hideNav").style.visibility="collapse";
-    document.getElementById("showNav").style.visibility="visible";
+    document.getElementById("nav").style.left="-50%";    
+    document.getElementById("hideNav").style.display="none";
+    document.getElementById("showNav").style.display="block";
     document.getElementById("alx").style.display="none";//alx page
     document.getElementById("community").style.display="none"//community page
     document.getElementById("opportunities").style.display="none";//opportunities page
@@ -124,15 +120,16 @@ background5.addEventListener("click",function(){
     document.getElementById("contact-us").style.display="none";
     document.getElementById("login").style.display="none";//login
     document.getElementById("action").style.display="none";
+    document.getElementById("showNav").style.display="block";
     if(window.innerWidth<=425){
-        document.getElementById("showNav").style.visibility="visible";
+        document.getElementById("showNav").style.display="block";
     }
 });
 
 //CONTACT US PAGE
 background6.addEventListener("click",function(){
-    document.getElementById("nav").style.left="-50%";
-    document.getElementById("hideNav").style.visibility="collapse";
+    document.getElementById("nav").style.left="-50%";    
+    document.getElementById("hideNav").style.display="none";
     document.getElementById("alx").style.display="none";//alx page
     document.getElementById("community").style.display="none"//community page
     document.getElementById("opportunities").style.display="none";//opportunities page
@@ -141,10 +138,9 @@ background6.addEventListener("click",function(){
     document.getElementById("contact-us").style.display="flex";//contact us page
     document.getElementById("login").style.display="none";//login
     document.getElementById("action").style.display="none";
+    document.getElementById("showNav").style.display="block";
     if(window.innerWidth<=425){
-        document.getElementById("showNav").style.visibility="visible";
         document.getElementById("contact-us").style.display="block";//contact us page
-        
     }
 });
 

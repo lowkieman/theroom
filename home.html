@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portal</title>
     <link rel="icon" type="image/x-icon" href="https://member.theroom.com/assets/icons/favicon.ico" data-react-helmet="true">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/profile.css">
     <link rel="stylesheet" href="css/legacy.css">
-    <link rel="stylesheet" href="css/imagesslides.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -19,37 +18,36 @@
     <div id="header">
         <div id="header1">
             <div class="header-icon">
-                <div class="listnav"><i class="bi-list" id="showNav"></i> <i class="bi-x" id="hideNav"></i> </div>  
+                <div><i class="bi-list" id="showNav"></i> <i class="bi-x" id="hideNav"></i> </div>  
                 <div><img src="images/alx.svg" id="loadimageforlanding"></div> 
             </div>
 
-            <div class="points">
-                <div><img src="https://member.theroom.com/assets/legacy-points-main.svg"></div>
-                <div class="pointsmain">300 <span id="hidepoints">points</span></div>
-            </div>
-
-            <div class="account">
-                <div id="name">
-                    <div class="icon">JD</div>
-                    <div class="hidename" id="hidename">John Doe <i class="bi-chevron-down"></i></div>
+            <div class="point-account">
+                <div class="points">
+                    <div><img src="https://member.theroom.com/assets/legacy-points-main.svg"></div>
+                    <div class="pointsmain">300 <span id="hidepoints">points</span></div>
                 </div>
-                <ul id="action">
-                    <li id="action1">edit professional profile</li>
-                    <li id="log">logout</li>
-                </ul>               
-            </div>
-        </div>
 
-        <div id="nav">
-            <ul>
-                <li id="background1">Learning</li>
-                <li id="background2">Community</li>
-                <li id="background3">Job Opportunities</li>
-                <li id="background4">Proffessional Profile</li>
-                <li id="background5">Legacy Points</li>
-                <li id="background6">Contact us</li>
-            </ul>
-        </div> 
+                <div class="account">
+                    <div id="name">
+                        <div class="icon">JD</div>
+                        <div class="hidename" id="hidename">John Doe <i class="bi-chevron-down"></i></div>
+                    </div>
+                    <ul id="action">
+                        <li id="action1">edit professional profile</li>
+                        <li id="log">logout</li>
+                    </ul>               
+                </div>
+            </div>            
+        </div>
+        <ul id="nav">
+            <li id="background1">Learning</li>
+            <li id="background2">Community</li>
+            <li id="background3">Job Opportunities</li>
+            <li id="background4">Proffessional Profile</li>
+            <li id="background5">Legacy Points</li>
+            <li id="background6">Contact us</li>
+        </ul>
     </div>
     <div id="main">
         <div id="alx">
@@ -185,39 +183,36 @@
             </div>    
         </div>
         <div id="redeem">
-            <div id="images">
-                <div class="slideshow-container">
-
-                    <div class="mySlides fade">
-                      <div class="numbertext"></div>
-                      <img src="https://legacy-points-banner-resources.s3.eu-west-1.amazonaws.com/banners/Legacy-Points-Banners_new840x300-Banner-1.png" style="width:100%">
-                      <div class="text"></div>
-                    </div>
-                    
-                    <div class="mySlides fade">
-                      <div class="numbertext"></div>
-                      <img src="https://legacy-points-banner-resources.s3.eu-west-1.amazonaws.com/banners/Legacy-Points-Banners_new840x300-Banner-2.png" style="width:100%">
-                      <div class="text"></div>
-                    </div>
-                    
-                    <div class="mySlides fade">
-                      <div class="numbertext"></div>
-                      <img src="https://legacy-points-banner-resources.s3.eu-west-1.amazonaws.com/banners/Legacy-Points-Banners_new840x300-Banner-3.png" style="width:100%">
-                      <div class="text"></div>
-                    </div>
-                    
-                    <div class="mySlides fade">
-                      <div class="numbertext"></div>
-                      <img src="https://legacy-points-banner-resources.s3.eu-west-1.amazonaws.com/banners/Legacy-Points-Banners_new840x300-Banner-4.png" style="width:100%">
-                      <div class="text"></div>
-                    </div>
-                    
-                    <div class="mySlides fade">
-                      <div class="numbertext"></div>
-                      <img src="https://legacy-points-banner-resources.s3.eu-west-1.amazonaws.com/banners/Legacy-Points-Banners_new840x300-Banner-5.png" style="width:100%">
-                      <div class="text"></div>
-                    </div>
-                    </div>               
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="https://legacy-points-banner-resources.s3.eu-west-1.amazonaws.com/banners/Legacy-Points-Banners_new840x300-Banner-1.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="https://legacy-points-banner-resources.s3.eu-west-1.amazonaws.com/banners/Legacy-Points-Banners_new840x300-Banner-2.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="https://legacy-points-banner-resources.s3.eu-west-1.amazonaws.com/banners/Legacy-Points-Banners_new840x300-Banner-3.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="https://legacy-points-banner-resources.s3.eu-west-1.amazonaws.com/banners/Legacy-Points-Banners_new840x300-Banner-4.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="https://legacy-points-banner-resources.s3.eu-west-1.amazonaws.com/banners/Legacy-Points-Banners_new840x300-Banner-5.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
             </div>
             <div id="redeem-main">
                 <div id="availablepoints">

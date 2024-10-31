@@ -1,0 +1,489 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+#header{
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+}
+
+#header1{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid lightgray;
+}
+
+.header-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+
+#showNav,
+#hideNav {
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width:425px){
+    #showNav{
+        display: block;
+    }
+}
+.header-icon div img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.point-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.points{
+    padding: 0 5px;
+    display: flex;
+    background-color: rgb(241,243,247);
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.points div img{
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.pointsmain{
+    padding: 2px 0 0 0;
+    font-weight: bold;
+}
+
+#hidepoints{
+    font-weight: normal;
+}
+
+.account{
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.account #name{
+    padding: 0;
+    display: flex;
+    font-size: 20px;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.account #name:hover .bi-chevron-down{
+    color: lightgray;
+}
+
+.account #name .icon{
+    padding: 0 2px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(241,243,247);
+}
+
+.account #name .hidename{
+    margin: 0 2px;
+    padding: 5px 0;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.account #action{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    background-color: white;
+    text-transform: capitalize;
+    position: absolute;
+    top: 63px;
+    right: 0;
+    border-radius: 10px 0 10px 10px;
+    display: none;
+}
+
+.account #action li{
+    padding: 10px 7px;
+    font-size: 18px;
+}
+
+#action1{
+    border-bottom: 1px solid lightgray;
+}
+
+.account #action li:hover{
+    background-color: rgb(241,243,247);
+
+}
+
+/*NAVIGATION */
+#nav{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+#nav li{
+    border-bottom: 2px solid transparent;
+    color: rgb(50, 50, 50);
+    cursor: pointer;
+
+}
+
+#nav li:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+@media screen and (max-width: 425px) {
+    #header1{
+        border-bottom: none;
+    }
+
+    #nav{
+        width: 50%;
+        display: block;
+        position: fixed;
+        height: 100vh;
+        gap: 20px;
+        background-color: inherit;
+    }
+    
+    #nav li{
+        border-bottom: 2px solid transparent;
+        color: rgb(50, 50, 50);
+        cursor: pointer;
+    
+    }
+    
+    #nav li:hover{
+        color: blue;
+        border-bottom: 2px solid blue;
+    }
+    
+}
+
+/*login page
+*
+*
+*/
+#login{
+    margin: 20px auto;
+    padding: 0;
+    width: 70%;
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(242, 244, 247); 
+    height: 65vh;
+    display: none;
+}
+
+#login1{
+    padding: 0;
+    width: 40%;
+    border-radius: 20px;
+}
+
+#login1 img{
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+}
+
+#login2{
+    margin: 0 auto;
+    padding: 0;
+    width: 60%;
+    border-radius: 0 20px 20px 0;
+    background-color: inherit;
+}
+
+#login2 #description{
+    text-align: center;
+    text-transform: capitalize;
+    display: none;
+}
+
+#login a{
+    text-decoration: none;
+}
+
+#login2 #google{
+    margin-top: 60px;
+
+}
+
+#login2 #google button{
+    color: black;
+}
+
+#login2 #email{
+    margin: 20px auto 0 auto;
+    width: 60%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#login2 #email input{
+    margin: 0 auto;
+    padding: 10px;
+    width: 95%;
+    border: none;
+    outline: none;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+}
+
+#login2 #submit{
+    margin: 30px auto;
+
+}
+
+#login2 #submit button{
+    background-color: rgb(24, 144, 255);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+#login2 #more-description{
+    margin: 0 auto;
+    padding: 10px;
+    width: 60%;
+
+}
+
+#login2 button{
+    margin: 10px auto;
+    display: block;
+    width: 60%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+#login2 button:hover{
+    box-shadow: 0 3px 5px rgb(175, 174, 174);
+}
+
+.or-separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+    color: gray;
+    font-weight: bold;
+}
+
+.or-separator::before,
+.or-separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.or-separator:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.or-separator:not(:empty)::after {
+    margin-left: .25em;
+}
+
+#emailMessage{
+    margin: 0 auto;
+    width: 60%;
+}
+
+/*login page*/
+@media screen and (max-width:425px) {
+    /*LOGIN*/
+    #login{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 0;
+        padding: 0;
+        background-color: inherit;
+    }
+
+    #login1{
+        display: none;
+        width: 100%;
+    }
+
+    #login2{
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+    } 
+
+    #login2 #description{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+        width: 80%;
+        text-align: center;
+        text-transform: none;
+        font-weight: bold;
+        color: gray;
+        font-size: 25px;
+    }
+
+    #login2 #google{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #login2 #google button{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #login2 .or-separator{
+        width: 100%;
+
+    }
+    #login2 #email{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #login2 #emailMessage{
+        width: 100%;
+    }
+    #login2 #submit button{
+        width: 100%;
+    }
+
+    #login2 #more-description{
+        width: 100%;
+        padding: 10px;
+        margin-top: 0;
+    }
+    
+}
+
+
+
+/*FOOTER*/
+#footer{
+    background-color: #3B4957;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#copyright{
+    margin: 20px auto;
+    padding: 0;
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    color: white;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:425px) {
+    #copyright{
+        margin: 10px auto;
+        padding: 0;
+        width: 70%;
+        display: flex;
+        justify-content: left;
+        color: white;
+        flex-wrap: wrap;
+        font-size: 15px;
+    } 
+}
+
+#copyright div{
+    margin: 0 0 0 30px;
+    padding-left: 5px;
+    text-transform: capitalize;
+}
+
+#copyright div a{
+    color: white;
+}
+
+#social-media-icons{
+    margin: 20px auto;
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#social-media-icons ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+#social-media-icons ul li a{
+    padding: 0px;
+    margin-right: 10px;
+    display: block;
+    width: 25%; 
+    color: white;
+}
+
+@media screen and (max-width:425px) {
+    #social-media-icons ul li a{
+        padding: 0px;
+        margin-right: 10px;
+        display: block;
+        width: 25%; 
+        color: white;
+        font-size: 15px;
+    }   
+}
+
+#alx,#community,#opportunities,#profile,#redeem,#contact-us{
+    display: none;
+}
