@@ -118,6 +118,15 @@ body{
     font-size: 18px;
 }
 
+@media  screen and (max-width: 425px) {
+    #hidepoints{
+        display: none;
+    }
+    .account #name .hidename{
+        display: none;
+    }
+}
+
 .account #action{
     margin: 0 auto;
     padding: 0;
@@ -182,6 +191,7 @@ body{
         height: 100vh;
         gap: 20px;
         background-color: inherit;
+        display: none;
     }
     
     #nav li{
