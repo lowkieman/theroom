@@ -191,7 +191,7 @@ body{
         height: 100vh;
         gap: 20px;
         background-color: inherit;
-        display: none;
+        left: -50%;
     }
     
     #nav li{
